@@ -12,6 +12,7 @@ public class BuggyProgram {
             }
         }
     }
+    // Method 2: array loop (Task 2)
     public static int sumEvenNumbers(int[] values) {
         int sum = 0; // Fixed: initialized to 0 instead of 1
         for (int i = 0; i < values.length; i++) { // Fixed: < instead of <= to prevent ArrayIndexOutOfBoundsException
