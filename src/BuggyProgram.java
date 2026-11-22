@@ -22,6 +22,7 @@ public class BuggyProgram {
         }
         return sum;
     }
+    // Method 3: loop with bounds (Task 3)
     public static int sumRange(int start, int end) {
         int sum = 0;
         for (int i = start; i <= end; i++) { // Check Task3Test to verify if upper bound is inclusive (<=)
